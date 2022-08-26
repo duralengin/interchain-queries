@@ -1,7 +1,7 @@
 default_chain: stride-testnet
 chains:
   gaia-testnet:
-    key: rues
+    key: wallet
     chain-id: GAIA
     rpc-addr: http://35.232.46.21:23657
     grpc-addr: http://35.232.46.21:23090
@@ -16,7 +16,7 @@ chains:
     output-format: json
     sign-mode: direct
   stride-testnet:
-    key: rues
+    key: wallet
     chain-id: STRIDE-TESTNET-4
     rpc-addr: http://35.232.46.21:16657
     grpc-addr: http://35.232.46.21:16090
